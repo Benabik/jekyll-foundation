@@ -1,6 +1,65 @@
 @charset "utf-8";
 
+@import
+	'normalize',
+	'settings',
+	// Get everything, at the cost of a HUGE CSS file
+	// 'foundation';
 
+// Structure
+    // 'foundation/components/visibility',
+    'foundation/components/grid',
+    // 'foundation/components/block-grid',
+
+// Navigation
+    // 'foundation/components/offcanvas',
+    // 'foundation/components/top-bar',
+    // 'foundation/components/icon-bar',
+    // 'foundation/components/side-nav',
+    // 'foundation/components/magellan',
+    // 'foundation/components/sub-nav',
+    // 'foundation/components/breadcrumbs',
+    // 'foundation/components/pagination',
+
+// Media
+    // 'foundation/components/orbit',
+    // 'foundation/components/thumbs',
+    // 'foundation/components/clearing', // clearing lightbox
+    // 'foundation/components/flex-video',
+
+// Forms
+    // 'foundation/components/forms',
+    // 'foundation/components/switches',
+    // 'foundation/components/range-slider',
+
+// Buttons
+    // 'foundation/components/buttons',
+    // 'foundation/components/button-groups',
+    // 'foundation/components/split-buttons',
+    // 'foundation/components/dropdown-buttons',
+
+// Typography
+    'foundation/components/type',
+    // 'foundation/components/inline-lists',
+    // 'foundation/components/labels',
+    // 'foundation/components/keystrokes',
+
+// Callouts & Prompts
+    // 'foundation/components/reveal',
+    // 'foundation/components/alert-boxes',
+    // 'foundation/components/panels',
+    // 'foundation/components/tooltips',
+    // 'foundation/components/joyride',
+
+// Content
+    // 'foundation/components/dropdown',
+    // 'foundation/components/pricing-tables',
+    // 'foundation/components/progress-bars',
+    'foundation/components/tables',
+    // 'foundation/components/accordion',
+    // 'foundation/components/tabs',
+
+    'foundation/components/global';
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;

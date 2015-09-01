@@ -20,3 +20,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+assets:
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - vendor
+    - vendor/bower_components/foundation/scss
