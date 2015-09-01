@@ -1,0 +1,11 @@
+{
+  "name": "jekyll-foundation",
+  "version": "0.0.0",
+  "description": "Jekyll Site using Foundation",
+  "private": "true",
+  "author": "Brian Gernhardt <brian@gernhardtsoftware.com",
+  "license": "Public Domain",
+  "dependencies": {
+    "bower": "^1.5.2"
+  }
+}
