@@ -14,6 +14,8 @@ This is my attempt to bring together [Jekyll](http:/jekyllrb.com) and [Foundatio
 
 * Minimalist: While Foundation does have everything and the [kitchen sink](http:/foundation.zurb.com/docs/components/kitchen_sink.html), I'd rather just pull in what I need.  So this project tends to pull individual portions of Foundation and trust to assets to minify them later.
 
+The theme is Foundation's [Blog template](http://foundation.zurb.com/templates.html), with some bits extracted from Jekyll's default theme.
+
 Prerequisites
 -------------
 
@@ -32,5 +34,3 @@ node_modules/.bin/bower install
 cd ..
 bundle exec jekyll build
 ```
-
-After that, you can build your site to your liking.  The theme here is a minimal translation of the base Jekyll theme to use Foundation.

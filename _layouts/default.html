@@ -7,10 +7,14 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="row">
+      <div class="large-9 columns" role="content">
         {{ content }}
       </div>
+
+	  <aside class="large-3 columns">
+	  	{% include aside.html %}
+	  </aside>
     </div>
 
     {% include footer.html %}

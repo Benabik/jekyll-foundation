@@ -1,0 +1,12 @@
+<h5>Posts</h5>
+<ul class="side-nav">
+  {% for post in site.posts %}
+	<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  {% endfor %}
+</ul>
+
+<div class="panel">
+  <h5>{{ site.title }}</h5>
+
+  <p>{{ site.description }}</p>
+</div>
