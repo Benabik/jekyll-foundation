@@ -32,5 +32,10 @@ cd vendor
 npm install
 node_modules/.bin/bower install
 cd ..
-bundle exec jekyll build
+rake
 ```
+
+Rakefile
+--------
+
+The rakefile provides some simple tasks to help avoid typing `bundle exec jekyll` repeatedly: `build`, `serve`, and `doctor`.  All of them pass their arguments to Jekyll.  So to serve your site with all your upcoming posts run `rake serve[--future]`.
