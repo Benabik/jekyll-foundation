@@ -61,7 +61,10 @@
 
     'foundation/components/global';
 
-
+// Fix foundation's code coloring
+pre > code {
+	display: block;
+}
 
 @import
 	"base",
