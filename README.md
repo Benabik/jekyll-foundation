@@ -39,3 +39,5 @@ Rakefile
 --------
 
 The rakefile provides some simple tasks to help avoid typing `bundle exec jekyll` repeatedly: `build`, `serve`, and `doctor`.  All of them pass their arguments to Jekyll.  So to serve your site with all your upcoming posts run `rake serve[--future]`.
+
+In order to generate compressed assets, there is a `compress` task.  Use this *before* `build` or `serve`, like so: `rake compress build`.  Note that using `rake compress` alone will do nothing, you must specify another task afterwards.

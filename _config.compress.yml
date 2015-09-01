@@ -1,0 +1,4 @@
+assets:
+  compress:
+    css: sass
+    js:  uglifier
