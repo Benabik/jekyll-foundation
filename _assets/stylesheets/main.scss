@@ -1,71 +1,24 @@
 @charset "utf-8";
 
-@import
-	'normalize',
-	'settings',
-	// Get everything, at the cost of a HUGE CSS file
-	// 'foundation';
+@import 'base';
 
-// Structure
-    // 'foundation/components/visibility',
-    'foundation/components/grid',
-    // 'foundation/components/block-grid',
+// Jekyll's icons
+.icon {
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
 
-// Navigation
-    // 'foundation/components/offcanvas',
-    // 'foundation/components/top-bar',
-    // 'foundation/components/icon-bar',
-    'foundation/components/side-nav',
-    // 'foundation/components/magellan',
-    // 'foundation/components/sub-nav',
-    // 'foundation/components/breadcrumbs',
-    // 'foundation/components/pagination',
-
-// Media
-    // 'foundation/components/orbit',
-    // 'foundation/components/thumbs',
-    // 'foundation/components/clearing', // clearing lightbox
-    // 'foundation/components/flex-video',
-
-// Forms
-    // 'foundation/components/forms',
-    // 'foundation/components/switches',
-    // 'foundation/components/range-slider',
-
-// Buttons
-    'foundation/components/buttons',
-    'foundation/components/button-groups',
-    // 'foundation/components/split-buttons',
-    // 'foundation/components/dropdown-buttons',
-
-// Typography
-    'foundation/components/type',
-    'foundation/components/inline-lists',
-    // 'foundation/components/labels',
-    // 'foundation/components/keystrokes',
-
-// Callouts & Prompts
-    // 'foundation/components/reveal',
-    // 'foundation/components/alert-boxes',
-    'foundation/components/panels',
-    // 'foundation/components/tooltips',
-    // 'foundation/components/joyride',
-
-// Content
-    // 'foundation/components/dropdown',
-    // 'foundation/components/pricing-tables',
-    // 'foundation/components/progress-bars',
-    'foundation/components/tables',
-    // 'foundation/components/accordion',
-    // 'foundation/components/tabs',
-
-    'foundation/components/global';
+        path {
+            fill: $base;
+        }
+    }
+}
 
 // Fix foundation's code coloring
 pre > code {
 	display: block;
 }
 
-@import
-	"base",
-	"syntax-highlighting";
+@import "syntax-highlighting";
